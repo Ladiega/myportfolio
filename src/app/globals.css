@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.hamburger-menu span {
+  width: 100%;
+  height: 2px;
+  background-color:white;
+  margin: 2px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.hamburger-menu.open span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.hamburger-menu.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.open span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.menu-dropdown {
+  min-width: 60px;
+  z-index: 10;
+
+}
+
+.menu-dropdown ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-dropdown a {
+  display: block;
+  padding: 8px 12px;
+  color:black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-dropdown a:hover {
+  color: gray;
+  text-decoration: line-through black;
+}
+.section-four-a{
+  cursor: pointer;
+}
+.section-four-a :hover{
+  text-decoration:line-through;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.sticky-menu {
+  position: relative;
+  z-index: 100;
+ 
+}
+
+.sticky-menu.sticky {
+ 
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:black;
+  
+}
+
+.sticky-menu .ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-left: -19rem;
+}
+
+.sticky-menu .li {
+  padding: none;
+}
