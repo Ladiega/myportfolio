@@ -8,6 +8,7 @@ const mplus = M_PLUS_1({
 export default function About (){
     return(
         <main>
+            <h1 className='text-4xl font-bold my-2'>About Me:</h1>
             <div className={mplus.className}>
       <p className="my-2 w-80 text-justify font-extralight">Hello! I`m Diego Gutierrez Casallas, a passionate self-taught web developer in search of exciting opportunities to kickstart my professional career in the programming field. I have strong knowledge in HTML, CSS, and JavaScript, as well as experience using frameworks like React and Next.js to create dynamic and engaging web applications.
 I`m a lifelong learner and always eager to acquire new knowledge to enhance my skills. I enjoy exploring the latest trends in web development and applying them in my projects to deliver innovative and high-quality solutions.
