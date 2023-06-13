@@ -20,17 +20,20 @@ export default function Button(){
         <span></span>
       </button>
       {isOpen && (
-        <div className="menu-dropdown absolute   bg-white rounded shadow p-4">
+        <div className="menu-dropdown absolute bg-white  rounded shadow p-4">
           <ul className="space-y-2">
             <li>
-              <Link href="#aboutme" className="text-gray-800 ">
+              <Link href='/' className="text-gray-800">Home</Link>
+            </li>
+            <li>
+              <Link href="/about" className="text-gray-800 ">
                 About Me
               </Link>
             </li>
            
             <li>
-              <Link href="#projects" className="text-gray-800 ">
-                Some Projects
+              <Link href="/moreprojects" className="text-gray-800 ">
+                Projects
               </Link>
             </li>
             <li>

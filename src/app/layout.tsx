@@ -1,6 +1,9 @@
 import './globals.css'
 import { Inter, Amatic_SC, Sawarabi_Mincho  } from 'next/font/google'
 
+import Sticky from './components/sticky/sticky'
+import SectionFour from './components/sectionFour/sectionFour'
+
 
 const inter = Inter({ subsets: ['latin'] })
 const amatic = Amatic_SC ({ 
@@ -26,8 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" className='flex justify-center bg-black text-white'>
      
-      <body className={amatic.className}>{children}
-      
+      <body className={amatic.className}>
+        <Sticky/>
+        <main>{children}</main>
+        <SectionFour/>
       </body>
     </html>
   )

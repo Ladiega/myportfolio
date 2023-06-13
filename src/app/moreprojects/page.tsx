@@ -1,24 +1,21 @@
 import Link from "next/link"
 
 import Image from "next/image"
-import projectOne from '../../../../public/img/projectOne.png'
-import projectTwo from '../../../../public/img/projectTwo.png'
-import git from '../../../../public/img/git.svg'
+import projectOne from '../../../public/img/projectOne.png'
+import projectTwo from '../../../public/img/projectTwo.png'
+import git from '../../../public/img/git.svg'
 
-import { Sawarabi_Mincho, M_PLUS_1 } from "next/font/google"
+import {  M_PLUS_1 } from "next/font/google"
 
-const sawarabi = Sawarabi_Mincho({
-  subsets:['latin'],
-  weight:['400']
-})
+
 const mplus = M_PLUS_1({
   subsets:['latin']
 })
 
 
-export default function SectionTree(){
-  return(
-    <section className="flex flex-col">
+export default function Projects(){
+    return(
+        <section className="flex flex-col">
       <h1 id="projects" className=" text-4xl my-10 font-bold">Some Projects</h1>
       <div className="card-container flex flex-col justify-center bg-white w-80 rounded-md">
         <div className="img-container flex justify-center">
@@ -83,10 +80,10 @@ export default function SectionTree(){
       </div>
       
     </div>
-    <div className=" hover:font-extrabold"><Link href='/moreprojects'>more projects ...</Link> </div>
+    <div className="section-four-a font-bold"><Link href='/'>Home</Link> </div>
     <span className=' w-full bg-white h-1 my-20'></span>
 
     
     </section>
-  )
+    )
 }
