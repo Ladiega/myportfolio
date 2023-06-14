@@ -10,6 +10,7 @@ export default function SectionFour(){
     <footer className="">
       <div> 
         <h1 id="contact"className="text-4xl font-bold">Contact</h1>
+        <p>diegogutierrezcasallas@gmail.com</p>
         <div  className="logos-container flex flex-row gap-6 my-3 ">
           <div className="logo">
             <Link target='_blank' href='https://github.com/Ladiega'>
