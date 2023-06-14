@@ -25,12 +25,7 @@ export default function SectionOne(){
       alt="Diego Image"
       />
       </div>
-      <div className={mplus.className}>
-      <div className=" text-container my-2 w-80 text-justify font-extralight">
-        <p>`La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos y el horizonte se corre diez pasos más allá ¿Entonces para que sirve la utopía? Para eso, sirve para caminar`</p>
-        <p className="text-right">-Eduardo Galeano-</p>
-      </div>
-      </div>
+      
 
     </section>
   )
