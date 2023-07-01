@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import Button from "../button/button";
 
 
-export default function Sticky (){
+export default function Sticky() {
   const [isSticky, setIsSticky] = useState(false);
 
   const handleScroll = () => {
@@ -22,12 +22,14 @@ export default function Sticky (){
   }, []);
 
   return (
-    <nav className={`sticky-menu ${isSticky ? 'sticky' : ''}`}>
-      <div className=" ul text-center">
-        <div className="li"><Button/></div>
-       
-      </div>
-    </nav>
+    <div className=" md:hidden">
+      <nav className={`sticky-menu ${isSticky ? 'sticky' : ''}`}>
+        <div className=" ul text-center">
+          <div className="li"><Button /></div>
+
+        </div>
+      </nav>
+    </div>
   );
 
 
