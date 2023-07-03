@@ -2,14 +2,14 @@
 
 import { useState } from "react"
 import Link from "next/link";
-export default function Button(){
+export default function Button() {
   const [isOpen, setIsOpen] = useState(false);
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
 
-  return(
+  return (
     <div className="relative my-5">
       <button
         className={`hamburger-menu ${isOpen ? 'open' : ''}`}
@@ -26,18 +26,18 @@ export default function Button(){
               <Link href='/' className="text-gray-800">Home</Link>
             </li>
             <li>
-              <Link href="/about" className="text-gray-800 ">
+              <Link href="./about" className="text-gray-800 ">
                 About Me
               </Link>
             </li>
-           
+
             <li>
-              <Link href="/moreprojects" className="text-gray-800 ">
+              <Link href="./moreprojects" className="text-gray-800 ">
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="text-gray-800 ">
+              <Link href="./contact" className="text-gray-800 ">
                 Contact
               </Link>
             </li>

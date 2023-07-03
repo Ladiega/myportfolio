@@ -31,8 +31,8 @@ export default function RootLayout({
 
       <body className={amatic.className}>
         <Sticky />
-        <main >{children}</main>
-        <SectionFour />
+        {children}
+
       </body>
     </html>
   )

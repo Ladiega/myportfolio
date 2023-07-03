@@ -1,15 +1,15 @@
 import Image from "next/image"
-import Portait from '../../../public/img/portfolioProfile.png'
+import Portait from '../../../../public/img/portfolioProfile.png'
 import Link from "next/link"
 
 
 
-import git from '../../../public/img/git2.svg'
-import instagram from '../../../public/img/instagram.svg'
-import linkedin from '../../../public/img/linkedin.svg'
+import git from '../../../../public/img/git2.svg'
+import instagram from '../../../../public/img/instagram.svg'
+import linkedin from '../../../../public/img/linkedin.svg'
 
 
-export default function DesktopContact() {
+export default function Aside() {
   return (
     <div className="hidden md:flex">
       <aside className="md:flex md:flex-col md:border-r md:h-screen">
@@ -23,9 +23,10 @@ export default function DesktopContact() {
           />
         </div>
         <ul className="md:text-5xl md:flex md:flex-col md:text-center md:-my-2">
-          <li><Link href='./desktop'>About me</Link> </li>
-          <li><Link href='./desktopPortfolio'>Portfolio</Link> </li>
-          <li><Link href='./desktopContact'>Contact</Link> </li>
+          <li><Link href='/'>Home</Link></li>
+          <li><Link href='./about'>About me</Link> </li>
+          <li><Link href='./moreprojects'>Portfolio</Link> </li>
+          <li><Link href='./contact'>Contact</Link> </li>
         </ul>
 
         <footer className="md:my-4 md:w-28 md:flex md:felx-col md:text-center md:m-10">
@@ -61,8 +62,7 @@ export default function DesktopContact() {
           </div>
         </footer>
       </aside>
-      <main className=" flex justify-center text-center align-middle left-full">main<div>div</div>
-        <div>div</div></main>
+
 
     </div>
   )
