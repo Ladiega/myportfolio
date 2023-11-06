@@ -23,16 +23,16 @@ export default function Button() {
         <div className="menu-dropdown absolute bg-white  rounded shadow p-4">
           <ul className="space-y-2">
             <li>
-              <Link href='/' className="text-gray-800">Home</Link>
+              <Link href='/' className={`text-gray-800 hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle} >Home</Link>
             </li>
             <li>
-              <Link href="./about" className="text-gray-800 ">
-                About Me
+              <Link href="./about" className={`text-gray-800 hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
+                About
               </Link>
             </li>
 
             <li>
-              <Link href="./moreprojects" className="text-gray-800 ">
+              <Link href="./moreprojects" className={`text-gray-800 hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
                 Projects
               </Link>
             </li>

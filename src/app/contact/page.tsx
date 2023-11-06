@@ -27,16 +27,14 @@ export default function Contact() {
                 src={Photo}
                 alt="contact photo"
                 className=" rounded-full"
-
-
               />
             </div>
-            <div className="link-container flex gap-4 my-10">
+            <div className="link-container flex justify-center gap-4 my-10">
               <div><Link href="https://github.com/Ladiega" target='_blank'>
                 <Image
                   src={git}
                   alt="github"
-                  width={200}
+                  width={30}
                 />
               </Link>
               </div>
@@ -44,7 +42,7 @@ export default function Contact() {
                 <Image
                   src={instagram}
                   alt="github"
-                  width={200}
+                  width={30}
                 />
               </Link>
               </div>
@@ -52,7 +50,7 @@ export default function Contact() {
                 <Image
                   src={linkedin}
                   alt="github"
-                  width={200}
+                  width={30}
                 />
               </Link>
               </div>

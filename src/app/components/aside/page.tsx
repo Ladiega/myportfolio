@@ -24,7 +24,7 @@ export default function Aside() {
             />
           </div>
           <ul className="md:text-5xl md:flex md:flex-col md:text-center md:-my-2">
-            <li><Link href='/'>Home</Link></li>
+
             <li><Link href='./about'>About me</Link> </li>
             <li><Link href='./moreprojects'>Portfolio</Link> </li>
             <li><Link href='./contact'>Contact</Link> </li>
@@ -40,6 +40,7 @@ export default function Aside() {
                     <Image
                       src={git}
                       alt="github"
+                      width={30}
                     />
                   </Link>
                 </div>
@@ -48,6 +49,7 @@ export default function Aside() {
                     <Image
                       src={instagram}
                       alt="instagram"
+                      width={30}
                     />
                   </Link>
                 </div>
@@ -56,6 +58,7 @@ export default function Aside() {
                     <Image
                       src={linkedin}
                       alt="linkedin"
+                      width={30}
                     />
                   </Link>
                 </div>
