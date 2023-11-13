@@ -17,23 +17,23 @@ export default function About() {
 
                     <div className="flex flex-col md:p-3 md:mx-60">
                         <div>
-                            <h1 className='text-4xl font-bold my-2'>About Me:</h1>
+                            <h1 className='text-4xl font-bold my-2'>Quien soy:</h1>
                         </div>
 
                         <div className={mplus.className}>
-                            <p className="my-2 w-80 font-extralight md:w-auto">Hello! I'm Diego, a passionate artist and tattoo artist with over 20 years of experience in the field. Throughout my artistic career, I've explored various forms of creative expression, always seeking new opportunities to grow and  learn.<br /><br />
+                            <p className="my-2 w-80 font-extralight md:w-auto">¡Hola! Soy Diego, un apasionado artista y tatuador con más de 20 años de experiencia en el campo. A lo largo de mi carrera artística, he explorado diversas formas de expresión creativa, siempre en busca de nuevas oportunidades para crecer y aprender.<br /><br />
 
-                                In 2021, I discovered a new passion for web development, combining my artistic talent with technical skills. I'm proficient in languages like HTML, CSS, and JavaScript, and I have experience using frameworks like React and Next.js, allowing me to create unique and captivating visual experiences in my web projects.<br /><br />
+                                En 2021, descubrí una nueva pasión por el desarrollo web, combinando mi talento artístico con habilidades técnicas. Tengo habilidades en lenguajes como HTML, CSS y JavaScript, y experiencia utilizando frameworks como React y Next.js, lo que me permite crear experiencias visuales únicas y cautivadoras en mis proyectos web.<br /><br />
 
-                                Collaboration is essential in my work. I've had the opportunity to work on collaborative projects, such as a messenger cooperative in Brazil and with restaurants. These experiences have helped me refine my teamwork skills, effective communication, and adaptability in dynamic environments.<br /><br />
+                                La colaboración es esencial en mi trabajo. He tenido la oportunidad de trabajar en proyectos colaborativos, como una cooperativa de mensajería en Brasil y con restaurantes. Estas experiencias me han ayudado a perfeccionar mis habilidades de trabajo en equipo, comunicación efectiva y adaptabilidad en entornos dinámicos.<br /><br />
 
-                                In addition to my artistic work, I've embarked on exciting bike trips throughout South America, immersing myself in the rich cultures of the region and connecting with people from diverse backgrounds. These experiences have broadened my artistic perspective and deepened my appreciation for cultural diversity.<br /><br />
+                                Además de mi trabajo artístico, me he embarcado en emocionantes viajes en bicicleta por toda América del Sur, sumergiéndome en las ricas culturas de la región y conectando con personas de diversos orígenes. Estas experiencias han ampliado mi perspectiva artística y profundizado mi aprecio por la diversidad cultural.<br /><br />
 
-                                I pay special attention to aesthetic design, and I'm passionate about creating intuitive and visually appealing interfaces. By combining my artistic talent, technical knowledge, and understanding of South American cultures, I can offer innovative and visually impactful solutions.<br /><br />
+                                Presto especial atención al diseño estético y me apasiona crear interfaces intuitivas y visualmente atractivas. Al combinar mi talento artístico, conocimientos técnicos y comprensión de las culturas sudamericanas, puedo ofrecer soluciones innovadoras e impactantes visualmente.<br /><br />
 
-                                I'm always exploring new techniques and emerging trends in web design, aiming to improve my skills and deliver exceptional results. If you're looking for a versatile and passionate individual to join your team, with a strong artistic vision, I'd be delighted to be a part of it and bring your ideas to life.<br /><br />
+                                Siempre estoy explorando nuevas técnicas y tendencias emergentes en diseño web, con el objetivo de mejorar mis habilidades y ofrecer resultados excepcionales. Si estás buscando a alguien versátil y apasionado para unirse a tu equipo, con una fuerte visión artística, estaré encantado de ser parte de ello y dar vida a tus ideas.<br /><br />
 
-                                Let's work together to create visually impressive experiences that leave a lasting impact on users!</p>
+                                ¡Trabajemos juntos para crear experiencias visualmente impresionantes que dejen una huella duradera en los usuarios!</p>
                         </div>
                         <div className={mplus.className}>
                             <div className=" text-container my-5 w-80  font-extralight md:w-auto">

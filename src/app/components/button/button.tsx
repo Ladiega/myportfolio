@@ -27,18 +27,18 @@ export default function Button() {
             </li>
             <li>
               <Link href="./about" className={`text-gray-800 hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
-                About
+                Bio
               </Link>
             </li>
 
             <li>
               <Link href="./moreprojects" className={`text-gray-800 hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
-                Projects
+                Prortafolio
               </Link>
             </li>
             <li>
               <Link href="./contact" className="text-gray-800 ">
-                Contact
+                Contacto
               </Link>
             </li>
           </ul>

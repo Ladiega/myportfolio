@@ -9,7 +9,7 @@ export default function SectionFour() {
   return (
     <footer className="md:hidden">
       <div>
-        <h1 id="contact" className="text-4xl font-bold">Contact</h1>
+        <h1 id="contact" className="text-4xl font-bold">Contacto</h1>
         <p>diegogutierrezcasallas@gmail.com</p>
         <div className="logos-container flex flex-row gap-6 my-3 ">
           <div className="logo">

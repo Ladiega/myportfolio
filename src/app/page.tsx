@@ -15,7 +15,7 @@ export default function Home() {
         <SectionTree />
         <SectionFour />
       </div>
-      <div className='hidden md:flex' >
+      <div className='hidden md:flex ' >
         <Desktop />
 
 

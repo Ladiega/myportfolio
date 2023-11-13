@@ -20,7 +20,7 @@ export default function Desktop() {
         <main className="md:flex md:justify-center  ">
           <div className="global-container flex flex-row">
             <div className="fixed"><Aside /></div>
-            <div className="mx-56">
+            <div className="md:mx-64">
               <div> <SectionTwo /></div>
               <div><SectionTree /></div>
               <div><SectionFour /></div>

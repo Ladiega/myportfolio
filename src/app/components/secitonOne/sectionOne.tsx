@@ -4,28 +4,28 @@ import Portait from '../../../../public/img/portfolioProfile.png'
 import { Sawarabi_Mincho, M_PLUS_1 } from "next/font/google"
 
 const sawarabi = Sawarabi_Mincho({
-  subsets:['latin'],
-  weight:['400']
+  subsets: ['latin'],
+  weight: ['400']
 })
 const mplus = M_PLUS_1({
-  subsets:['latin']
+  subsets: ['latin']
 })
 
-export default function SectionOne(){
+export default function SectionOne() {
 
- 
-  return(
+
+  return (
     <section>
-      <h1 id="aboutme" className="my-9 text-4xl font-bold">Portfolio</h1>
+      <h1 id="aboutme" className="my-9 text-4xl font-bold">Portafolio</h1>
       <div className="image-container">
-      <Image
-      width={194}
-      height={258}
-      src={Portait}
-      alt="Diego Image"
-      />
+        <Image
+          width={194}
+          height={258}
+          src={Portait}
+          alt="Diego Image"
+        />
       </div>
-      
+
 
     </section>
   )

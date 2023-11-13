@@ -14,7 +14,10 @@ export default function Aside() {
     <div className="hidden md:flex">
       <aside className="md:flex md:flex-col md:border-r md:h-screen">
         <div className="flex flex-col flex-warp gap-3">
-          <div className=" md:text-6xl md:text-center md:my-auto md:-my-auto">Protfolio</div>
+          <div className=" md:text-6xl md:text-center md:my-auto md:-my-auto">
+            <p className=" text-2xl">hola soy:</p>
+            <h1>DiegoH</h1>
+          </div>
           <div className="md:image-container ">
             <Image
               width={194}
@@ -23,11 +26,11 @@ export default function Aside() {
               alt="Diego Image"
             />
           </div>
-          <ul className="md:text-5xl md:flex md:flex-col md:text-center md:-my-2">
+          <ul className="md:text-5xl md:flex md:flex-col md:text-center md:-my-2 ">
 
-            <li><Link href='./about'>About me</Link> </li>
-            <li><Link href='./moreprojects'>Portfolio</Link> </li>
-            <li><Link href='./contact'>Contact</Link> </li>
+            <li className="hover:underline"><Link href='./about'>Bio</Link> </li>
+            <li className="hover:underline"><Link href='./moreprojects'>Portafolio</Link> </li>
+            <li className="hover:underline"><Link href='./contact'>Contacto</Link> </li>
           </ul>
 
           <footer className="md:my-4 md:w-28 md:flex md:felx-col md:text-center md:m-10">

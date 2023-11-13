@@ -51,7 +51,7 @@ export default function Contact() {
                   src={linkedin}
                   alt="github"
                   width={30}
-                />
+                /> 
               </Link>
               </div>
             </div>
