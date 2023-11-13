@@ -17,8 +17,8 @@ const sawarabi = Sawarabi_Mincho({
 })
 
 export const metadata = {
-  title: 'My Protfolio',
-  description: 'Portfolio by Diego Gutierrez Casallas',
+  title: 'Mi Portafolio',
+  description: 'Portafolio de Diego Gutierrez Casallas',
 }
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='flex justify-center md:justify-start bg-black text-white'>
+    <html lang="es" className='flex justify-center md:justify-start bg-black text-white'>
 
       <body className={amatic.className}>
         <Sticky />
